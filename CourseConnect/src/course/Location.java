@@ -48,9 +48,9 @@ public class Location {
 
     public String meetingDescription() {
         if (isOnline) {
-            return "This meeting is online.";
+            return "Online.";
         } else {
-            return "This meeting is in " + building + " room " + roomNumber + ".";
+            return building + " " + roomNumber + ".";
         }
     }
 }
